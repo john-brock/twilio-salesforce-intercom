@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Configs for Twilio door app and API.</description>
+    <fields>
+        <fullName>Digits_to_Open__c</fullName>
+        <description>Digits to auto-open door when correctly pre-authed via text.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Digits to Open</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Door_Opened_Text__c</fullName>
+        <description>Text when door is auto-opened</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Door Opened Text</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Secret_Auth_Code__c</fullName>
+        <description>Code that will allow auto auth.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Secret Auth Code</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Sms_Alert_Text__c</fullName>
+        <description>Alert to text when intercom is activated.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Sms Alert Text</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Target_Phone_Number__c</fullName>
+        <description>Phone number for use when forwarding calls.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Target Phone Number</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <label>Twilio Door Config</label>
+    <pluralLabel>Twilio Door Configs</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

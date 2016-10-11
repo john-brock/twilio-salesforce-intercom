@@ -1,0 +1,11 @@
+<!--
+Visualforce page which returns TwiML (XML) payload upon Twilio call request.
+
+@author jbrock
+@date 10/10/2016
+-->
+<apex:page controller="TwilioDoorController" 
+           showheader="false"
+           action="{!markAuthRequestUsed}"
+           contentType="text/xml">{! '<?xml version=\"1.0\" encoding=\"UTF-8\"?>' }{!twiml}
+</apex:page>
